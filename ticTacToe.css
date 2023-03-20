@@ -1,0 +1,29 @@
+table {
+    border-collapse: collapse;
+}
+td {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid black;
+}
+td {
+    background-color: lightblue;
+}
+td {
+    border: 2px solid red;
+}
+td:hover {
+    background-color: yellow;
+}
+.x::before {
+    content: "X";
+    font-size: 60px;
+    color: red;
+}
+.o::before {
+    content: "O";
+    font-size: 60px;
+    color: blue;
+}
